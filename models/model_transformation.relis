@@ -14,8 +14,8 @@ QA
  Questions =["Question 1","Question 2","Question 3","Question 4"]
  Response=["Yes":3,"Partially":1.5,"No":0]
  Min_score 3
+
 CLASSIFICATION
-no_overide
 Simple transformation_name "Transformation name" * [1] :string(100)
 DynamicList domain "Domain"  [1] "Domain" =["Artificial Intelligence","Collaborative system","Compilation","E-commerce","HOT"]
 DynamicList trans_language "Transformation Language"  [10] "Transformation Language " =["ATL","Henshin","MoTiF","QVT"]

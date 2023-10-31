@@ -1,8 +1,7 @@
 package geodes.relis.dsl.interfaces;
 
-import org.eclipse.emf.common.util.EList;
-import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.resource.Resource;
 
 public interface Dsl {
-        public EList<EObject> getModelObjects(String modelPath);
+        public Resource getModel();
 }
