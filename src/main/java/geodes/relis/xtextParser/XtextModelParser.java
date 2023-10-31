@@ -10,9 +10,9 @@ import org.eclipse.xtext.resource.XtextResourceSet;
 import com.google.inject.Injector;
 
 public class XtextModelParser {
-	public XtextParserFromFileConfig xtextParserFromFileConfig;
+	public XtextModelParserConfig xtextParserFromFileConfig;
 	
-	public XtextModelParser(XtextParserFromFileConfig xtextParserFromFileConfig) {
+	public XtextModelParser(XtextModelParserConfig xtextParserFromFileConfig) {
 		this.xtextParserFromFileConfig = xtextParserFromFileConfig;
 	}
 	
