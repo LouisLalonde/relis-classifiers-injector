@@ -2,13 +2,13 @@ package geodes.relis.xtextParser;
 
 import com.google.inject.Injector;
 
-public class XtextParserFromFileConfig {
+public class XtextModelParserConfig {
 	private String eNS_URI;
 	private String eINSTANCE;
 	private String modelPath;
 	private Injector injector;
 	
-	public XtextParserFromFileConfig(String eNS_URI, String eINSTANCE, String modelPath, Injector injector) {
+	public XtextModelParserConfig(String eNS_URI, String eINSTANCE, String modelPath, Injector injector) {
 		this.eNS_URI = eNS_URI;
 		this.eINSTANCE = eINSTANCE;
 		this.modelPath = modelPath;

@@ -80,6 +80,14 @@
       <artifactId>spring-beans</artifactId>
       <version>${spring.version}</version>
     </dependency>
+    <!-- Relis dsl -->
+    <dependency>
+      <groupId>geodes.sms.relis</groupId>
+      <artifactId>relis-dsl</artifactId>
+      <version>1.0.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/relis/org.xtext.language.relis_1.0.0.201708171501.jar</systemPath>
+    </dependency>
   </dependencies>
 
   <build>
