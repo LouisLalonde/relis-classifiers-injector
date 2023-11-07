@@ -88,6 +88,13 @@
       <scope>system</scope>
       <systemPath>${project.basedir}/lib/relis/org.xtext.language.relis_1.0.0.201708171501.jar</systemPath>
     </dependency>
+    <dependency>
+      <groupId>geodes.sms.rsc</groupId>
+      <artifactId>rsc-dsl</artifactId>
+      <version>1.0.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/relis-statistical-classifiers/rsc-dsl.jar</systemPath>
+    </dependency>
   </dependencies>
 
   <build>

@@ -10,7 +10,7 @@ import geodes.relis.grammarModifier.RscGrammarModifier;
 @Configuration
 @ComponentScan(basePackages = "geodes.relis")
 public class App {
-    private static final String grammarModelPath = "lib/relis-statistical-classifiers/RelisTextual.xtext";
+    private static final String grammarModelPath = "lib/relis-statistical-classifiers/geodes/sms/relis/RelisTextual.xtext";
     private static final String relisModelPath = "models/model_transformation.relis";
 
     public static void main(String[] args) {
